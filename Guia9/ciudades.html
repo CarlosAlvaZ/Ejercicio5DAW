@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./ciudades.js" defer></script>
+    <title>Añadir un nuevo recurso | Ciudades || Ejercicio #1 | Guia #9</title>
+</head>
+<body>
+    <main>
+        <div class="form">
+            <h3>Añadir un nuevo recurso de Ciudades</h3>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="fecha">Fecha de publicación:</label>
+            <input type="date" name="fecha" id="fecha">
+            <label for="imagen">Imagen (url):</label>
+            <input type="text" name="imagen" id="imagen">
+            <button class="enviar">Enviar</button>
+        </div>
+    </main>
+
+    <div class="alert hidden">
+        <div class="card">
+            <h3>Datos enviados con éxito</h3>
+            <div class="buttons">
+                <button class="continuar">Añadir otro elemento</button>
+                <button class="visualizar">Visualizar elementos</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
